@@ -1,0 +1,20 @@
+@startuml
+!theme black-knight
+
+
+class Account {
+  - <<get, set>> id: int
+  - <<get, set>> balance: float
+  - <<get, set>> annualInterestRate: float
+  + <<get>> monthlyInterest: float
+  + <<get>> monthlyInterestRate: float
+
+  + __init__(id: int, balance: float, interest: float): None
+  + withdraw(amt: float): None
+  + deposit(amt: float): None
+}
+
+center footer
+Created with PlantUML Web Server
+end footer
+@enduml

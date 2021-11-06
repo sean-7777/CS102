@@ -1,0 +1,39 @@
+@startuml Fan
+!theme materia
+
+class Fan {
+  {static} SLOW: int
+  {static} MEDIUM: int
+  {static} FAST: int
+  - __speed: int
+  - __on: bool
+  - __radius: float
+  - __color: str
+  + speed: None
+  + on: None
+  + radius: None
+  + color: None
+  + __init__(speed: int, radius: float, color: str, on: bool): None
+  + setSpeed(speed: int): None
+  + getSpeed(): int
+  + setOn(on: bool): None
+  + getOn(): bool
+  + setRadius(radius: int): None
+  + getRadius(): int
+  + setColor(color: str): None
+  + getColor(): str
+
+}
+
+note left of Fan
+The variables such as speed with a type of None,
+are actually variables with setters 
+and getters using the property function. 
+If you call the type() function on the return value of property(), 
+it will give you None.
+end note
+
+center footer
+Created with PlantUML Web Server
+end footer
+@enduml

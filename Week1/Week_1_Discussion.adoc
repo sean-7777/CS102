@@ -1,0 +1,46 @@
+= 11.14 - Explore Matrix
+
+image::https://lh3.googleusercontent.com/pw/AM-JKLWRJvFzmoHnvUSIWm-UDFp_TJOmWOLx6lATIeIQ_AaCIeE6ehnDKN210H78jJNsskH_DyC2tENk2jwZzqv6ejd0cUf0GClYmVNg5pXu-Jh4UFKiPLaKD5HrAVQ_J24GhUNZaACDUvVcVBOJ1m3S5Nit=w979-h511-no[]
+
+
+## Solution
+First in the `main()` function, we get the user's input of the matrix size, and generate the matrix.
+Generating the matrix is simple, we just need to loop through matrix size and add random values to it.
+
+Then, we print the matrix. After printing the matrix, we display which rows/columns/diagonals have the same value (0 or 1). This is the hard part.
+
+To do that, I created a helper function `isSame()`. This function takes in a matrix and returns a list of strings. The list of strings says which rows/columns/diagonals have the same value. Then, since the helper function only does rows, I converted the matrix's columns into rows with the `zip()` function. Then, I obtained the diagonals and put that through the helper function too.
+
+
+## Observations and Comments
+- To check if a list only contains one different value, you can use the `list.count()` function, which counts how many of a item is in a list. If the return value of `list.count()` is equal to the length of the list, the list only contains that value.
+- To get a diagonal, you can loop through a matrix like this:
++
+[source]
+for i in range(len(matrix)):
+  elem = matrix[i][i]
++
+But what about the other diagonal? Instead of having `[i]` for the last on, you can do `-(i + 1)`. The other diagonal is sort of a reverse of the first diagonal, and using a negative allows you to access the list from the end. The `+1` is for the indexing, as negative indexes start from `-1`, not `-0` since `-0 == 0` and normal indexing uses `0` as the starting point.
+- `zip()` function. This function was used to convert the columns into rows. What the function does is it merges lists. It takes in a bunch of iterables and loops over them. For example:
++
+[source]
+zip(
+  [1, 2, 3],
+  ["one", "two", "three"],
+  ["i", "ii", "iii"]
+)
++
+gives:
+[source]
+[
+  (1, "one", "i"),
+  (2, "two", "ii"),
+  (3, "three", "iii")
+]
++
+So as you can see, it merges lists. When using this function, you can see that it makes rows into cols, if you think of the input as a matrix. When doing the columns part, I did the converted rows into columns manually, then during some other part (this part no longer exists, it was unnecessary), I was reading the Python docs and found this function.
+
+
+== Questions
+. I have attached a file called `Week1_Discussion_Typed.py`, which is the same as the other one, except that it includes python type hints (ex. `def func(a: int, b: str) -> list:`). I come from a static typed language, TypeScript and C++, and I'm used to having type definitions in my code. But Python normally is a dynamically typed language so can I use type definitions?
+. For most of my programming, I use a IDE called Visual Studio Code. I use this IDE a lot, for my web development projects, and I am very proficient with it. But the Getting Started sections says that we are using Wing 101, but I tried it and it was not great. Can I use Visual Studio Code?

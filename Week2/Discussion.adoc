@@ -1,0 +1,18 @@
+= 7.4 - The Fan class
+:table-caption!:
+
+image::https://lh3.googleusercontent.com/pw/AM-JKLV35Ql3Hl4g8W7WgL_pbVFYqlJhyEz7LnRilliH64tEORB5vg5qMd5EZdRWbf-GTXVUdd_nmR3WUrkPJInXmbqZRujoUum-l9aINEuW0xFplym6zbK0NE3Zt57dRwE-bIdajX4IPPC8F4LmzdEdn2jR=w981-h513-no[Running the program]
+
+
+== Solution
+The program is quite simple. First, according to the following diagram, I define a class called `Fan`.
+
+image:https://lh3.googleusercontent.com/pw/AM-JKLUE_fBfIrhLUS8KMrxxzHJKbZ-GioqAUdAQ4SoJgp0aEY20HhVoPaKcbQkAYoh9feJ-NturC9tEeeJnus5Ga4GzWQ3XuAow7_tky_LjKNaSiywhVr3u3rpZfV7IEt54E5xSVtWYiHCRPx-BWuqu0G0W=w880-h797-no[Class Diagram]
+
+The constructor method creates some private variables and sets them according to the parameters passed to the constructor.
+
+Then, for each property, I have a getter and a setter method. The setter method will validate if the new value is valid, and if it is, it will set the property to the new value. Otherwise, it creates an error.
+
+== Observations and Comments
+. One thing I noticed is that when declaring the setter and getter methods, they are very similar. I think there is a way to create a function to do this. Maybe in the constructor method, it could run a function factory?
+. The program itself was considerably easy, but the diagram wasn't, as I didn't know how I was supposed to create the diagram. I first tried to do it manually with https://inkscape.org/[Inkscape], but it didn't work out. Then after some googling, I found a tool called https://plantuml.com/[PlantUML], which let me generate a nice-looking diagram from a little bit of text.
