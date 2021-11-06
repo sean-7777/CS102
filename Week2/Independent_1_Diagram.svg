@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="282.2917px" preserveAspectRatio="none" style="width:346px;height:282px;background:#00000000;" version="1.1" viewBox="0 0 346 282" width="346.875px" zoomAndPan="magnify"><defs><linearGradient id="g12m1fcenb5hdj0" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#3A3A3A"/><stop offset="100%" stop-color="#262626"/></linearGradient><linearGradient id="g12m1fcenb5hdj1" x1="50%" x2="50%" y1="0%" y2="100%"><stop offset="0%" stop-color="#3A3A3A"/><stop offset="100%" stop-color="#484848"/></linearGradient></defs><g><!--MD5=[f9a29335b499db729be669fd1bd54958]
+class Account--><rect codeLine="4" fill="url(#g12m1fcenb5hdj0)" height="242.0898" id="Account" rx="4.1667" ry="4.1667" style="stroke:#262626;stroke-width:1.0416666666666667;" width="332.2917" x="7.2917" y="7.2917"/><rect fill="url(#g12m1fcenb5hdj1)" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:url(#g12m1fcenb5hdj1);stroke-width:1.0416666666666667;" width="332.2917" x="7.2917" y="7.2917"/><rect fill="url(#g12m1fcenb5hdj1)" height="4.1667" style="stroke:url(#g12m1fcenb5hdj1);stroke-width:1.0416666666666667;" width="332.2917" x="7.2917" y="38.5091"/><rect codeLine="4" fill="none" height="242.0898" id="Account" rx="4.1667" ry="4.1667" style="stroke:#262626;stroke-width:1.0416666666666667;" width="332.2917" x="7.2917" y="7.2917"/><ellipse cx="139.0625" cy="24.9837" fill="#3A3A3A" rx="10.4167" ry="10.4167" style="stroke:#565656;stroke-width:1.0416666666666667;"/><path d="M140.9993,21.5983 C140.3158,21.2728 139.8763,21.1751 139.2253,21.1751 C137.3047,21.1751 135.8236,22.6888 135.8236,24.6908 L135.8236,25.5208 C135.8236,27.4251 137.3861,28.8086 139.502,28.8086 C140.3971,28.8086 141.2598,28.5807 141.7969,28.1738 C142.2363,27.8809 142.4642,27.5553 142.4642,27.2624 C142.4642,26.9368 142.1712,26.6439 141.8457,26.6439 C141.6829,26.6439 141.5365,26.709 141.39,26.8392 C141.0482,27.1973 141.0482,27.1973 140.918,27.2624 C140.6087,27.4577 140.1042,27.5553 139.5345,27.5553 C138.0371,27.5553 137.0768,26.7415 137.0768,25.4883 L137.0768,24.6908 C137.0768,23.3724 138.0046,22.4121 139.2741,22.4121 C139.6973,22.4121 140.153,22.526 140.4948,22.7214 C140.8529,22.9167 140.9831,23.0794 141.0482,23.3724 C141.097,23.6816 141.1133,23.763 141.2109,23.8607 C141.3086,23.9746 141.4876,24.0397 141.6504,24.0397 C141.862,24.0397 142.041,23.9421 142.1712,23.7793 C142.2526,23.6654 142.2852,23.5352 142.2852,23.2096 L142.2852,22.168 C142.2852,21.8587 142.2689,21.7611 142.1875,21.6471 C142.0736,21.4518 141.8783,21.3379 141.6504,21.3379 C141.4388,21.3379 141.2923,21.4193 141.1296,21.6471 L140.9993,21.5983 Z " fill="#000000"/><text fill="#FFF200" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="50" x="164.0625" y="29.3111">Account</text><line style="stroke:#262626;stroke-width:1.0416666666666667;" x1="8.3333" x2="338.5417" y1="42.6758" y2="42.6758"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="15.625" y="51.0091"/><text fill="#FFF200" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="96.875" x="32.2917" y="62.6867">«get, set» id: int</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="15.625" y="74.764"/><text fill="#FFF200" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="32.2917" y="86.4415">«get, set» balance: float</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="15.625" y="98.5189"/><text fill="#FFF200" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="32.2917" y="110.1964">«get, set» annualInterestRate: float</text><ellipse cx="18.75" cy="125.3988" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#FFF200" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="32.2917" y="133.9513">«get» monthlyInterest: float</text><ellipse cx="18.75" cy="149.1536" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#FFF200" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="192.7083" x="32.2917" y="157.7062">«get» monthlyInterestRate: float</text><line style="stroke:#262626;stroke-width:1.0416666666666667;" x1="8.3333" x2="338.5417" y1="169.7835" y2="169.7835"/><ellipse cx="18.75" cy="181.2419" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#FFF200" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="295.8333" x="32.2917" y="189.7944">__init__(id: int, balance: float, interest: float): None</text><ellipse cx="18.75" cy="204.9967" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#FFF200" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="155.2083" x="32.2917" y="213.5493">withdraw(amt: float): None</text><ellipse cx="18.75" cy="228.7516" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#FFF200" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="32.2917" y="237.3042">deposit(amt: float): None</text><text fill="#888888" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="217.7083" x="64.5833" y="273.4843">Created with PlantUML Web Server</text><!--MD5=[2cedb69eafbf9be19f2b26c5fae43dca]
+@startuml
+!theme black-knight
+
+
+class Account {
+  - <<get, set>> id: int
+  - <<get, set>> balance: float
+  - <<get, set>> annualInterestRate: float
+  + <<get>> monthlyInterest: float
+  + <<get>> monthlyInterestRate: float
+
+  + __init__(id: int, balance: float, interest: float): None
+  + withdraw(amt: float): None
+  + deposit(amt: float): None
+}
+
+center footer
+Created with PlantUML Web Server
+end footer
+@enduml
+
+@startuml
+!assume transparent dark
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+skinparam  {
+    defaultFontName   "Verdana"
+    defaultFontSize   12
+    defaultTextAlignment center
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #484848
+skinparam stereotype {
+    CBackgroundColor #3A3A3A
+    CBorderColor #565656
+    ABackgroundColor #33FF33
+    ABorderColor #00CC00
+    IBackgroundColor #FF3333
+    IBorderColor #CC0000
+    EBackgroundColor #FF9933
+    EBorderColor #CC6600
+    NBackgroundColor #0073CA
+    NBorderColor #004D86
+}
+
+skinparam title {
+	FontColor	                 #fefefe
+	BorderColor	                 #3A3A3A
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              #565656-#484848
+}
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #262626
+	FontColor #fff200
+}
+
+skinparam swimlane {
+	BorderColor #0060a8
+	BorderThickness 2
+	TitleBackgroundColor  #565656-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #565656-#3A3A3A
+  	DiamondBorderColor #3A3A3A
+  	DiamondFontColor #fefefe
+}
+
+skinparam participant {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+	ParticipantBorderThickness 2
+}
+
+skinparam actor {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+}
+
+skinparam arrow {
+	Thickness 3
+	Color #303030
+	FontColor $FGCOLOR
+}
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor transparent
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor transparent
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	DelayFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3A3A3A
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #fff200
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+	StereotypeFontColor #fff200
+}
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #3A3A3A
+	BackgroundColor transparent
+}
+
+skinparam collections {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+}
+
+skinparam control {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+}
+
+skinparam entity {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+}
+
+skinparam boundary {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+}
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #FF9933
+	FontColor #484848
+}
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #0060a8
+	BorderColor #004D86
+	FontColor ffffff
+}
+
+skinparam artifact {
+	BackgroundColor #565656-#3A3A3A
+	BorderColor #fff200
+	FontColor #fff200
+}
+
+skinparam component {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+}
+
+skinparam interface {
+	BackgroundColor  #CC0000
+	BorderColor  #ff0000
+	FontColor #484848
+}
+
+skinparam storage {
+	BackgroundColor #FF9933-#CC6600
+  	BorderColor #CC6600
+	FontColor #222222
+}
+
+skinparam node {
+	BackgroundColor transparent
+	BorderColor #3A3A3A
+	FontColor #fff200
+}
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #3A3A3A
+	FontColor #fff200
+}
+
+skinparam database {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+	BackgroundColor  transparent
+}
+
+skinparam class {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+	HeaderBackgroundColor #3A3A3A-#484848
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fff200
+	AttributeFontSize 11
+}
+
+skinparam object {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+skinparam usecase {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+skinparam rectangle {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+skinparam package {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+	BackgroundColor transparent
+	BorderThickness 2
+}
+
+skinparam folder {
+	BackgroundColor #565656
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+skinparam frame {
+	BackgroundColor #565656
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+skinparam state {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+skinparam queue {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+}
+
+skinparam card {
+	BackgroundColor #0073CA-#004D86
+	BorderColor #004D86
+	FontColor ffffff
+}
+
+skinparam file {
+	BackgroundColor #565656-#3A3A3A
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+skinparam stack {
+		FontColor #fff200
+	BorderColor #262626
+	BackgroundColor #3A3A3A-#262626
+}
+
+
+
+class Account {
+  - <<get, set>> id: int
+  - <<get, set>> balance: float
+  - <<get, set>> annualInterestRate: float
+  + <<get>> monthlyInterest: float
+  + <<get>> monthlyInterestRate: float
+
+  + __init__(id: int, balance: float, interest: float): None
+  + withdraw(amt: float): None
+  + deposit(amt: float): None
+}
+
+center footer
+Created with PlantUML Web Server
+end footer
+@enduml
+
+PlantUML version 1.2021.13beta8(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
