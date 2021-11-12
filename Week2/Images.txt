@@ -1,3 +1,4 @@
 Independent_1_Diagram.puml: https://raw.githubusercontent.com/sean-7777/CS102/main/Week2/Independent_1_Diagram.puml
-Independent_1_Diagram.svg: 
+Independent_1_Diagram.svg: https://raw.githubusercontent.com/sean-7777/CS102/main/Week2/Independent_1_Diagram.svg
 Independent_2_Layout.svg: https://raw.githubusercontent.com/sean-7777/CS102/main/Week2/Independent_2_Layout.svg
+Github Repository: https://github.com/sean-7777/CS102
