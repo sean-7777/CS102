@@ -25,9 +25,9 @@ And the `__main__.py` file is used to run the app. When running the app, you sho
 Video::
   https://www.youtube.com/watch?v=pVcbzfMtzA4
 Github::
+  ZIP Archive:::
+    https://github.com/sean-7777/CS102/blob/main/Week3/Discussion/Archive.zip
   Folder:::
     https://github.com/sean-7777/CS102/tree/main/Week3/Discussion
   Repository:::
     https://github.com/sean-7777/CS102/
-ZIP::
-  
