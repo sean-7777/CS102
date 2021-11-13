@@ -15,8 +15,8 @@ The `main.py` file is the app wrapper, it displays the board. It owns the click 
 The `widgets/Board.py` is the board, it creates the board and stores the cells.
 The `Cell.py` is a cell, it contains a label element that can be used to render a image. It has a `setImage` function that can be used to set the image with the image classes in the file. Finally, the `widgets/Checker.py` accepts a matrix of cells (the cell attribute of the board) and decides if there is a winner, tie or the game is not over yet.
 
-The `__init__.py` file is used in the `widgets` directory to make it a package.
-And the `__main__.py` file is used to run the app. When running the app, you should use `python Week3\Discussion` instead of `python Week3\Discussion\\\__main__.py`.
+The `\\__init__.py` file is used in the `widgets` directory to make it a package.
+And the `\\__main__.py` file is used to run the app. When running the app, you should use `python Week3\Discussion` instead of `python Week3\Discussion\\\__main__.py`.
 
 == Questions
 . I am a little confused on how to type annotate Tkinter. I would like to type annotate it, but several times the the types were wrong. Is Tkinter not meant to be type annotated?
