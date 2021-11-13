@@ -133,16 +133,11 @@ def checkDiag(board):
 def checkAntiDiag(board):
     """Checks for anti-diagonal wins
 
-    Similar to checkCol, but with the anti-diagonal.
-    We also reverse the matrix to get the anti-diagonal.
+    Similar to checkCol, but we reverse the matrix instead of turning it.
 
     Args & Returns:
         Same as other checks.
     """
 
-    # TL;DR Zip objects don't have lengths.
-    # List is needed because the checkDiag method uses the len method on the board variable,
-    # which requires a object with a length.
-    # The checkRow method does not because looping through zip objects is supported.
-    winState = checkDiag(list(zip(*board)))
+    winState = checkDiag([[elem for elem in reversed(row)] for row in board])
     return winState

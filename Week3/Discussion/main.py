@@ -1,12 +1,12 @@
 """
-  CSC101 - Programming Assignment 1
+  CS102 - Programming Assignment 3
   12.5 - Tic Tac Toe
   Sean X.
-  Nov. 2nd, 2021
+  Nov. 9th, 2021
 
   Summary
+    A tic tac toe game.
 """
-import tkinter as tk
 from tkinter import ttk
 import tkinter.messagebox as tkMsg
 
@@ -29,7 +29,7 @@ class App(ttk.Frame):
 
     isXTurn = True
 
-    def __init__(self, parent):
+    def __init__(self, parent, gridSize):
         """Initialize the app
 
         Name the tic tac toe window, add the board widget,
@@ -45,7 +45,7 @@ class App(ttk.Frame):
         self.toplevel = self.winfo_toplevel()
         self.toplevel.title("Tic Tac Toe")
 
-        self.board = widgets.Board(parent=self, onClick=self.onClick)
+        self.board = widgets.Board(parent=self, onClick=self.onClick, gridSize=gridSize)
         self.board.grid(column=0, columnspan=5, row=0, rowspan=5)
 
         for i in range(5):
@@ -106,7 +106,7 @@ class App(ttk.Frame):
             self.toplevel.destroy()
 
 
-def main(root):
+def main(root, gridSize):
     """Create the app and run it
 
     Create the app and pack it into the root.
@@ -117,9 +117,9 @@ def main(root):
         root: The root tkinter widget, usually the root window.
     """
 
-    App(parent=root).grid(
-        column=0, row=0
-    )  # Use grid method, because it works with columnconfigure and rowconfigure.
+    app = App(parent=root, gridSize=gridSize)
+    # Use grid method, because it works with columnconfigure and rowconfigure.
+    app.grid(column=0, row=0)
 
     root.columnconfigure(0, weight=1)
     root.rowconfigure(0, weight=1)
@@ -130,7 +130,3 @@ def main(root):
     root.maxsize(width * 3, height * 3)
 
     root.mainloop()
-
-
-if __name__ == "__main__":
-    main(tk.Tk())
