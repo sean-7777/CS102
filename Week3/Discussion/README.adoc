@@ -1,14 +1,6 @@
 = Tic Tac Toe
 Sean Xiao
 
-== Video
-https://www.youtube.com/watch?v=pVcbzfMtzA4
-
-== Source
-https://github.com/sean-7777/CS102/tree/main/Week3/Discussion
-
-An attached ZIP file also contains the files for this project.
-
 == Code
 The code is separated into several files.
 The `main.py` file is the app wrapper, it displays the board. It owns the click handler and message box functions.
