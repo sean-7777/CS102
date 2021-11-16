@@ -5,4 +5,21 @@ Sean Xiao
 image::https://lh3.googleusercontent.com/pw/AM-JKLULXHQLo0FZ6AYNOVyqazMLhybGE4IyJvuQyT21friwTknGbxbjSAIOEhpZ69HKO_gbuXL4j51RBYeiIAuDohFA78EOasiu5fmOwn8gvgTa-glH_tLBDN4sCip5sqtfSOcc7M6K8VgvAfqeeUA4HMju=w1789-h979-no[]
 
 == Source
+https://github.com/sean-7777/CS102/tree/main/Week4/Discussion
+https://github.com/sean-7777/CS102/blob/main/Week4/Discussion/Discussion.zip
 
+== Code
+This program probably has been one of the simplest. All the program does is loop through each character in the file and encrypt it by adding 5 to it. Then it writes the result to another file.
+
+== Comments and Observations
+Using list comprehension, I can flatten a list, make a list of lists into one big list.
+----
+flatten([
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+])
+->
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+----
+There are several other ways of looping through a matrix, such as a nested loop or `itertools.chain.from_iterable`.

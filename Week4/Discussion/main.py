@@ -8,7 +8,6 @@
     Encrypt a file by adding 5 to every byte.
 """
 import typing as t
-from itertools import chain
 
 
 def getFileNames() -> tuple[str, str]:
@@ -27,7 +26,6 @@ def encrypt(inputFileName: str, outputFileName: str) -> None:
     """Encrypt a file
 
     Loop through each character in the file and add 5 to the digit represented by the character.
-    chain.from_iterable method is used to convert the matrix of characters, the file into a single list.
 
     Args:
         inputFileName: The name of the file to encrypt
@@ -37,7 +35,9 @@ def encrypt(inputFileName: str, outputFileName: str) -> None:
     inputFile: t.TextIO = open(inputFileName, mode="rt")
     outputFile: t.TextIO = open(outputFileName, mode="wt")
 
-    for char in chain.from_iterable(inputFile):
+    flatInputFile: list[str] = [item for row in inputFile for item in row]
+
+    for char in flatInputFile:
         outputFile.write(chr(ord(char) + 5))
 
 
