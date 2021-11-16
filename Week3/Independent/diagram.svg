@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="644.7917px" preserveAspectRatio="none" style="width:465px;height:644px;background:#00000000;" version="1.1" viewBox="0 0 465 644" width="465.625px" zoomAndPan="magnify"><defs><filter height="300%" id="f16xi5o4gf2qew" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0833333333333335"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.166666666666667" dy="4.166666666666667" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[14d61a16418e3a0c729cb0e55a924034]
+class GeometricObject--><rect codeLine="2" filter="url(#f16xi5o4gf2qew)" height="216.1296" id="GeometricObject" rx="4.1667" ry="4.1667" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;" width="315.625" x="73.9583" y="17.7083"/><ellipse cx="151.5625" cy="41.8213" fill="#FFFFFF" rx="10.4167" ry="10.4167" style="stroke:#CCCCCC;stroke-width:1.0416666666666667;"/><path d="M153.4993,38.4359 C152.8158,38.1104 152.3763,38.0127 151.7253,38.0127 C149.8047,38.0127 148.3236,39.5264 148.3236,41.5283 L148.3236,42.3584 C148.3236,44.2627 149.8861,45.6462 152.002,45.6462 C152.8971,45.6462 153.7598,45.4183 154.2969,45.0114 C154.7363,44.7184 154.9642,44.3929 154.9642,44.0999 C154.9642,43.7744 154.6712,43.4814 154.3457,43.4814 C154.1829,43.4814 154.0365,43.5465 153.89,43.6768 C153.5482,44.0348 153.5482,44.0348 153.418,44.0999 C153.1087,44.2952 152.6042,44.3929 152.0345,44.3929 C150.5371,44.3929 149.5768,43.5791 149.5768,42.3258 L149.5768,41.5283 C149.5768,40.21 150.5046,39.2497 151.7741,39.2497 C152.1973,39.2497 152.653,39.3636 152.9948,39.5589 C153.3529,39.7542 153.4831,39.917 153.5482,40.21 C153.597,40.5192 153.6133,40.6006 153.7109,40.6982 C153.8086,40.8122 153.9876,40.8773 154.1504,40.8773 C154.362,40.8773 154.541,40.7796 154.6712,40.6169 C154.7526,40.5029 154.7852,40.3727 154.7852,40.0472 L154.7852,39.0055 C154.7852,38.6963 154.7689,38.5986 154.6875,38.4847 C154.5736,38.2894 154.3783,38.1755 154.1504,38.1755 C153.9388,38.1755 153.7923,38.2568 153.6296,38.4847 L153.4993,38.4359 Z " fill="#000000"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="131.25" x="181.7708" y="46.8699">GeometricObject</text><line style="stroke:#1A78C2;stroke-width:1.0416666666666667;" x1="75" x2="388.5417" y1="65.9342" y2="65.9342"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="82.2917" y="74.2676"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="143.75" x="104.1667" y="94.0542">«get/set» color: str</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="82.2917" y="112.0768"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="156.25" x="104.1667" y="131.8634">«get/set» filled: bool</text><line style="stroke:#1A78C2;stroke-width:1.0416666666666667;" x1="75" x2="388.5417" y1="149.8861" y2="149.8861"/><ellipse cx="85.4167" cy="161.3444" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="268.75" x="104.1667" y="178.006">__init__(color: str, filled: bool): None</text><ellipse cx="85.4167" cy="199.1536" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="90.625" x="104.1667" y="215.8152">__str__(): str</text><!--MD5=[40b067e448d061f8c1f714bff454de58]
+class Triangle--><rect codeLine="11" filter="url(#f16xi5o4gf2qew)" height="329.5573" id="Triangle" rx="4.1667" ry="4.1667" style="stroke:#1A78C2;stroke-width:1.0416666666666667;fill:none;" width="428.125" x="17.7083" y="295.8333"/><ellipse cx="186.9792" cy="319.9463" fill="#FFFFFF" rx="10.4167" ry="10.4167" style="stroke:#CCCCCC;stroke-width:1.0416666666666667;"/><path d="M188.916,316.5609 C188.2324,316.2354 187.793,316.1377 187.1419,316.1377 C185.2214,316.1377 183.7402,317.6514 183.7402,319.6533 L183.7402,320.4834 C183.7402,322.3877 185.3027,323.7712 187.4186,323.7712 C188.3138,323.7712 189.1764,323.5433 189.7135,323.1364 C190.153,322.8434 190.3809,322.5179 190.3809,322.2249 C190.3809,321.8994 190.0879,321.6064 189.7624,321.6064 C189.5996,321.6064 189.4531,321.6715 189.3066,321.8018 C188.9648,322.1598 188.9648,322.1598 188.8346,322.2249 C188.5254,322.4202 188.0208,322.5179 187.4512,322.5179 C185.9538,322.5179 184.9935,321.7041 184.9935,320.4508 L184.9935,319.6533 C184.9935,318.335 185.9212,317.3747 187.1908,317.3747 C187.6139,317.3747 188.0697,317.4886 188.4115,317.6839 C188.7695,317.8792 188.8997,318.042 188.9648,318.335 C189.0137,318.6442 189.0299,318.7256 189.1276,318.8232 C189.2253,318.9372 189.4043,319.0023 189.5671,319.0023 C189.7786,319.0023 189.9577,318.9046 190.0879,318.7419 C190.1693,318.6279 190.2018,318.4977 190.2018,318.1722 L190.2018,317.1305 C190.2018,316.8213 190.1855,316.7236 190.1042,316.6097 C189.9902,316.4144 189.7949,316.3005 189.5671,316.3005 C189.3555,316.3005 189.209,316.3818 189.0462,316.6097 L188.916,316.5609 Z " fill="#000000"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="60.4167" x="217.1875" y="324.9949">Triangle</text><line style="stroke:#1A78C2;stroke-width:1.0416666666666667;" x1="18.75" x2="444.7917" y1="344.0592" y2="344.0592"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="26.0417" y="352.3926"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="131.25" x="47.9167" y="372.1792">«get» side1: float</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="26.0417" y="390.2018"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="130.2083" x="47.9167" y="409.9884">«get» side2: float</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="26.0417" y="428.0111"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="131.25" x="47.9167" y="447.7976">«get» side3: float</text><ellipse cx="29.1667" cy="468.9453" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="123.9583" x="47.9167" y="485.6069">«get» area: float</text><ellipse cx="29.1667" cy="506.7546" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="168.75" x="47.9167" y="523.4161">«get» perimeter: float</text><line style="stroke:#1A78C2;stroke-width:1.0416666666666667;" x1="18.75" x2="444.7917" y1="541.4388" y2="541.4388"/><ellipse cx="29.1667" cy="552.8971" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="381.25" x="47.9167" y="569.5587">__init__(side1: float, side2: float, side3: float): None</text><ellipse cx="29.1667" cy="590.7064" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="&quot;Verdana&quot;" font-size="14.5833" lengthAdjust="spacing" textLength="90.625" x="47.9167" y="607.368">__str__(): str</text><!--MD5=[d72c78752a635b9cb15e2b3637264783]
+reverse link GeometricObject to Triangle--><path codeLine="10" d="M231.7708,247.3792 C231.7708,263.1375 231.7708,279.4875 231.7708,295.8 " fill="none" id="GeometricObject-backto-Triangle" style="stroke:#2196F3;stroke-width:3.125;"/><polygon fill="#2196F3" points="231.7708,233.6979,227.6042,239.9479,231.7708,246.1979,235.9375,239.9479,231.7708,233.6979" style="stroke:#2196F3;stroke-width:3.125;"/><!--MD5=[afec19c86078b182a084c754bbc811a8]
+@startuml
+!theme materia
+class GeometricObject {
+  - <<get/set>> color: str
+  - <<get/set>> filled: bool
+  + __init__(color: str, filled: bool): None
+  + __str__(): str
+}
+
+' Triangle composes GeometricObject
+GeometricObject *- - Triangle
+class Triangle {
+  - <<get>> side1: float
+  - <<get>> side2: float
+  - <<get>> side3: float
+  + <<get>> area: float
+  + <<get>> perimeter: float
+  + __init__(side1: float, side2: float, side3: float): None
+  + __str__(): str
+}
+@enduml
+
+@startuml
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor transparent
+    FontColor #FFF
+    HyperLinkColor #fd7e14
+    LineColor #1a78c2
+    LineThickness 1
+    Margin 10
+    Padding 6
+    Shadowing 0.0
+  }
+  node {
+   Padding 15
+   roundcorner 20
+   BackgroundColor #2196F3-#1a78c2
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #fff
+    FontColor #9C27B0
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  referenceHeader {
+    BackgroundColor transparent
+    FontColor #222
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #222
+    FontColor transparent
+    FontStyle bold
+  }
+  title {
+	FontSize 20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor  #fff-#fff
+	FontColor #2196F3
+	BorderColor #fff
+  }
+  nwdiagDiagram {
+	network {
+			FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3    
+		LineColor #2196F3
+		LineThickness 1.0
+		FontColor #1a78c2
+	}
+	server {
+			FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	}
+	arrow {
+		FontColor #1a78c2
+		LineColor #1a78c2
+	}
+	group {
+		BackGroundColor #fff
+		LineColor $LIGHT_DARK
+		LineThickness 2.0
+		Margin 5
+		Padding 5
+	}
+  }
+  ganttDiagram {
+	task {
+			FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+		LineColor #2196F3
+		Margin 10
+		Padding 6
+	}
+	note {
+		FontColor #FFF
+		LineColor #7D1F8D
+		BackGroundColor #9C27B0
+	}
+	separator {
+		LineColor #fff
+		BackGroundColor #fff-#cccccc
+		FontColor #222
+	}
+	milestone {
+		FontColor #9C27B0
+		FontSize 24
+		FontStyle italic
+		BackGroundColor #fff
+		LineColor #cccccc
+	}
+	timeline {
+		BackgroundColor #fff
+		FontColor #222
+	}
+	closed {
+		BackgroundColor #CC7A00
+		FontColor #FFF
+	}
+  }
+</style>
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             true
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               10
+skinparam ArrowColor            #666
+skinparam stereotype {
+    CBackgroundColor #fff
+    CBorderColor #cccccc
+    ABackgroundColor #70bf73
+    ABorderColor #3D8C40
+    IBackgroundColor #B7161C
+    IBorderColor #b7161c
+    EBackgroundColor #ffad33
+    EBorderColor #CC7A00
+    NBackgroundColor #b052c0
+    NBorderColor #7D1F8D
+}
+skinparam title {
+	FontColor	                 #2196F3
+	BorderColor	                 #cccccc
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              #fff-#fff
+}
+
+skinparam legend {
+	BackgroundColor #fff
+	BorderColor #cccccc
+	FontColor #222
+}
+
+skinparam swimlane {
+	BorderColor #9C27B0
+	BorderThickness 2
+	TitleBackgroundColor  #fff-#fff
+	TitleFontColor #2196F3
+}
+
+
+skinparam activity {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	BarColor #4CAF50
+	StartColor #9C27B0
+	EndColor #9C27B0
+	DiamondBackgroundColor #FFF-#fff
+  	DiamondBorderColor #cccccc
+	DiamondFontColor #222
+}
+
+
+skinparam participant {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	FontColor #222
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2196F3
+	FontColor #222
+}
+
+
+skinparam sequence {
+	BorderColor #2196F3
+	TitleFontColor #2196F3
+	BackgroundColor transparent
+	StartColor #2196F3
+	EndColor #2196F3
+	BoxBackgroundColor #fff
+	BoxBorderColor #666
+	BoxFontColor #222
+	DelayFontColor #222
+	LifeLineBorderColor #cccccc
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #fff
+	GroupBorderColor #666
+	GroupFontColor #222
+	GroupHeaderFontColor #9C27B0
+	DividerBackgroundColor #FFF-#fff
+    DividerBorderColor #666
+    DividerBorderThickness 2
+    DividerFontColor #222
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #666
+	ReferenceFontColor #222
+	ReferenceHeaderFontColor #9C27B0
+	StereotypeFontColor #FFF
+}
+
+
+skinparam partition {
+	BorderColor #2196F3
+	FontColor #2196F3
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+}
+
+
+skinparam control {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	FontColor #222
+}
+
+
+skinparam entity {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	FontColor #222
+}
+
+
+skinparam boundary {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	FontColor #222
+}
+
+
+skinparam agent {
+	BackgroundColor #orange
+	BorderColor #999999
+	FontColor #333333
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #b052c0-#9C27B0
+	BorderColor #9C27B0
+	FontColor #FFF
+}
+
+
+skinparam artifact {
+	BackgroundColor #FFF-#fff
+	BorderColor #666
+	FontColor #666
+}
+
+
+skinparam component {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+}
+
+
+skinparam interface {
+	BackgroundColor  #B7161C
+	BorderColor  #e51c23
+	FontColor #222
+}
+
+
+skinparam storage {
+	BackgroundColor #ffad33-#ff9800
+  	BorderColor #ff9800
+	FontColor #FFF
+}
+
+
+skinparam node {
+	BackgroundColor #fff-#fff
+	BorderColor #222
+	FontColor #222
+}
+
+
+skinparam cloud {
+	BackgroundColor #F2FCFE-#eeeeee
+	BorderColor #F2FCFE
+	FontColor #222
+}
+
+
+skinparam database {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	FontColor #222
+}
+
+
+skinparam class {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	HeaderBackgroundColor #2196F3-#1a78c2
+	StereotypeFontColor #222
+	BorderThickness 1
+	AttributeFontColor #fff
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	StereotypeFontColor #222
+	BorderThickness 1
+	AttributeFontColor #222
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	BorderThickness 2
+	StereotypeFontColor #2196F3
+}
+
+
+skinparam rectangle {
+	FontColor #2196F3
+	BackgroundColor #fff-#fff
+	BorderThickness 2
+	StereotypeFontColor #2196F3
+}
+
+
+skinparam package {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	BackgroundColor #fff-#fff
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #FFF-#fff
+  	BorderColor #ff9800
+	FontColor #ff9800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #FFF-#fff
+  	BorderColor #9C27B0
+	FontColor #9C27B0
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+	BorderColor #1a78c2
+	StartColor #9C27B0
+	EndColor #9C27B0
+	AttributeFontColor #222
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #FFF
+	BorderColor #2196F3
+	BackgroundColor #4dabf5-#2196F3
+}
+
+
+skinparam card {
+	BackgroundColor #b052c0-#9C27B0
+	BorderColor #9C27B0
+	FontColor #FFF
+}
+
+
+skinparam file {
+	BackgroundColor #fff-#fff
+	BorderColor #666
+	FontColor #666
+
+}
+
+
+class GeometricObject {
+  - <<get/set>> color: str
+  - <<get/set>> filled: bool
+  + __init__(color: str, filled: bool): None
+  + __str__(): str
+}
+
+GeometricObject *- - Triangle
+class Triangle {
+  - <<get>> side1: float
+  - <<get>> side2: float
+  - <<get>> side3: float
+  + <<get>> area: float
+  + <<get>> perimeter: float
+  + __init__(side1: float, side2: float, side3: float): None
+  + __str__(): str
+}
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 16:46:50 UTC 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

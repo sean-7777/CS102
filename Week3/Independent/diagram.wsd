@@ -1,0 +1,21 @@
+@startuml Triangle
+!theme materia
+class GeometricObject {
+  - <<get/set>> color: str
+  - <<get/set>> filled: bool
+  + __init__(color: str, filled: bool): None
+  + __str__(): str
+}
+
+' Triangle composes GeometricObject
+GeometricObject *-- Triangle
+class Triangle {
+  - <<get>> side1: float
+  - <<get>> side2: float
+  - <<get>> side3: float
+  + <<get>> area: float
+  + <<get>> perimeter: float
+  + __init__(side1: float, side2: float, side3: float): None
+  + __str__(): str
+}
+@enduml
