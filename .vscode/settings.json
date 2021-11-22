@@ -4,5 +4,7 @@
     "askyesno",
     "puml",
     "winfo"
-  ]
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true
 }
