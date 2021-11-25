@@ -1,7 +1,14 @@
 = Count keyword occurrences
 :source-highlighter: pygments
+:figure-caption!:
 
 == Source
+[%hardbreaks]
+GitHub: link:https://github.com/sean-7777/CS102/tree/main/Week5/Discussion[]
+Source ZIP: link:https://github.com/sean-7777/CS102/blob/main/Week5/Discussion.zip[] or attached file.
+
+.Demo
+image::https://lh3.googleusercontent.com/pw/AM-JKLUpEF-UKfa9X3M9ryrBrqdoJasFObKEBbJIfDKko7yaSO1tUxg7GuWzHgfW3JsW7t80p5fP4cDrmBOMqKy5bDTFjXzdc7U6yzV2uCXTueHPO6HlVZ2M0iLFxsfjWAnNT4J5hcv5SU0PRba2o-XgqT3F=w2432-h1339-no[Demo Image,link=https://photos.app.goo.gl/bsofi9YN8VQ8vmT16]
 
 == Program
 The program firsts reads a file inputted by the user. Then it loops through each keyword and uses the `str.count` function to check how many of each keyword there is. It store the counts in a dictionary.
