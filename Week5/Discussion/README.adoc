@@ -1,0 +1,26 @@
+= Count keyword occurrences
+:source-highlighter: pygments
+
+== Source
+
+== Program
+The program firsts reads a file inputted by the user. Then it loops through each keyword and uses the `str.count` function to check how many of each keyword there is. It store the counts in a dictionary.
+
+Then, it prints the results of the count. The `prettyPrintDict()` formats the keyword count into a readable string. First, (line 44) if the `skipZero` option is enabled, then we loop through the dictionary and generate a new one, copying the values from the old dictionary only if the value is not 0. If the option is not enabled, we use the unprocessed dictionary. Then, we call `.items()` to convert it into a tuple, as if I give `sorted()` a dictionary, it will sort by the keys and also remove the values. We want to keep it as a dictionary a sort by values. Calling `.items()` does this:
+
+[source,python]
+----
+data = {
+    "a": 1, "b": 2, "c": 3,
+    "d": 4, "e": 5, "f": 6,
+    "g": 7, "h": 8, "i": 9,
+}
+items = tuple(data.items())
+itemsIs = (
+    ("a", 1), ("b", 2), ("c", 3), 
+    ("d", 4), ("e", 5), ("f", 6), 
+    ("g", 7), ("h", 8), ("i", 9),
+)
+----
+
+Now, we call `.sorted()` on that. Since the sorted function by default expects a list of things such as strings or numbers, not tuples, we need to use the `key` parameter. This parameter is a function, and when the tuple is being sorted, it will call the function with whatever item it is, and the function should return what the `sorted()` should sort by. Since we want to sort by the second element in each tuple, we use `lambda item: item[1]` to return the second element. Then the `reverse` argument simply sorts by largest to least, instead of least to largest. Then, we convert it back to a dictionary, as the format `.items()` gives can be reversed with `dict()`. Then we loop through the sorted dictionary and generate a array of strings for each, and join the with a newline.

@@ -2,7 +2,9 @@
   "cSpell.words": [
     "Xiao",
     "askyesno",
+    "kwlist",
     "puml",
+    "softkwlist",
     "winfo"
   ],
   "python.linting.enabled": true,
