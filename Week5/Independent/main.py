@@ -1,6 +1,6 @@
 """
   CS102 - Programming Assignment 5
-  ...
+  14.11 - Count cons
   Sean X.
   Nov. 26th, 2021
 
@@ -10,7 +10,7 @@
 from collections.abc import Iterable, Iterator
 from itertools import islice, zip_longest
 
-from vowels import CONSTANTS, VOWELS
+from vowels import CONSONANTS, VOWELS
 
 LetterCount = dict[str, int]
 
@@ -97,10 +97,10 @@ def dictChunks(data: dict, chunkSize: int) -> list[dict]:
 def main(fileName: str) -> None:
     with open(fileName, "r") as file:
         text: str = file.read()
-        constantCount: LetterCount = countInText(text, CONSTANTS)
+        consonantCount: LetterCount = countInText(text, CONSONANTS)
         vowelCount: LetterCount = countInText(text, VOWELS)
-    
+
     print(f"{'VOWELS':=^75}")
     print(formatCount(vowelCount))
     print(f"{'CONSTANTS':=^75}")
-    print(formatCount(constantCount))
+    print(formatCount(consonantCount))
