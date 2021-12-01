@@ -3,15 +3,15 @@
 :source-highlighter: pygments
 :figure-caption!:
 
-+++<script type="text/javascript" src="https://livejs.com/live.js"></script>+++
 
 == Source
 [%hardbreaks]
 GitHub: link:https://github.com/sean-7777/CS102/tree/main/Week6/Discussion[]
-Source ZIP: link:https://github.com/sean-7777/CS102/blob/main/Week6/Discussion.zip[] or attached file.
+Source ZIP: link:https://github.com/sean-7777/CS102/blob/main/Week6/Discussion.zip[]
+Try It Online: link:https://www.online-python.com/yFex07rMYg[]
 
 .Demo
-image::https://lh3.googleusercontent.com/pw/AM-JKLUpEF-UKfa9X3M9ryrBrqdoJasFObKEBbJIfDKko7yaSO1tUxg7GuWzHgfW3JsW7t80p5fP4cDrmBOMqKy5bDTFjXzdc7U6yzV2uCXTueHPO6HlVZ2M0iLFxsfjWAnNT4J5hcv5SU0PRba2o-XgqT3F=w2432-h1339-no[Demo Image,link=https://photos.app.goo.gl/bsofi9YN8VQ8vmT16]
+image::https://lh3.googleusercontent.com/pw/AM-JKLVr2BGIE8LmLTGqPIMNV004y6hIUv-tLRWTuN_6hg1AnYaIMPt57L-zUWhsN3uVdYUJ0coxaFuMqTbKpwwkOwA2zEAiEADe1NelrbP8wRoNxw1LTu4-_2e7YP4aWFKe1xosd4Zqop2E6kqgwbt4rJMn=w2432-h1339-no[Demo Image,link=https://photos.app.goo.gl/GewG1mYMhuhGwQ6c8]
 
 == Program
 The `compute` function computes the formula, stem:[1 + 1/2 + 1/3 + 1/3 + ... + 1/i].
@@ -19,4 +19,7 @@ The helper function, `compute_helper` has three arguments. The `i` argument is f
 
 In `compute` we call the `compute_helper` function with special arguments. For `i` we start at 2 in the formula. For `cur` it is a fraction of zero value. For `target` it is one greater than `i`, because `i` does not start at 1, it starts at 2, and since we are comparing `i` with `target`, we have to add one. In compute we also add one to the result of `compute_helper` because in the formula we have a `1 +` before the fractions.
 
-NOTE: In some terminals the code might not work if your terminal doesn't support Unicode characters. If so, on line 35 of `\\__main__.py` remove the `format_function` call. 
+NOTE: In some terminals the code might not work if your terminal doesn't support Unicode characters. If so, on line 35 of `\\__main__.py` remove the `format_function` call.
+
+// Autoreload for local development
+//+++<script type="text/javascript" src="https://livejs.com/live.js"></script>+++
