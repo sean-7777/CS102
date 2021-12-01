@@ -1,6 +1,16 @@
+"""
+  CS102 - Programming Assignment 6
+  15.4 - Sum series
+  Sean X.
+  Monday Nov. 29, 2021
+
+  Summary
+    This program will compute a formula described in the docstring of the compute function.
+    It includes a format fraction helper to convert a fraction to a string.
+"""
 from fractions import Fraction
 from typing import Callable
-
+  
 
 def compute(i: int) -> Fraction:
     """Compute using the formula in the description
@@ -50,8 +60,13 @@ def format_fraction(fraction: Fraction) -> str:
     }
     # fmt: on
 
+    # Get the whole number part of the fraction as a mixed number
     number: int = fraction.numerator // fraction.denominator
+    # Get the left over numerator after making it a mixed number
     remainder: int = fraction.numerator - number * fraction.denominator
+    # Make each digit in a number into the super/subscript version of it.
+    # I convert it into a string, make it into a list of each char
+    # and get the super/subscript version.
     subSupScript: Callable[[int, str], str] = lambda n, l: "".join(
         symbols[l][int(s)] for s in list(str(n))
     )
