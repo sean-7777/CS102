@@ -6,8 +6,8 @@
 GitHub: link:https://github.com/sean-7777/CS102/tree/main/Week7/Discussion[]
 Source ZIP: link:https://github.com/sean-7777/CS102/blob/main/Week7/Discussion.zip[]
 
-// .Program Demo
-// image::https://lh3.googleusercontent.com/pw/AM-JKLVV4Pmmbw1HzRA3S7N3_g8xfRejVB0z5QJl8A0rPwh4egumI6v2396mo0ket7PIKzEQwzqKIvmVjyjCqErM-CbsvRdEvIAGsQ63xy2gq4xC20xfNueUdlrOcdJnv3lsa9SXmsLk6Cc4picW5ClJyeIf=w768-h846-no[Demo Image,link=https://photos.app.goo.gl/drGojBHJEvNRmvgbA]
+.Program Demo
+image::https://lh3.googleusercontent.com/pw/AM-JKLVV4Pmmbw1HzRA3S7N3_g8xfRejVB0z5QJl8A0rPwh4egumI6v2396mo0ket7PIKzEQwzqKIvmVjyjCqErM-CbsvRdEvIAGsQ63xy2gq4xC20xfNueUdlrOcdJnv3lsa9SXmsLk6Cc4picW5ClJyeIf=w768-h846-no[Demo Image,link=https://photos.app.goo.gl/drGojBHJEvNRmvgbA]
 
 == Program
 The file `listings.py` contains the algorithms for each listings, 16.4, 16.5, and 16.6. The main.py file will loop through each of the listings and then each of the `n` values. In each iteration it will run a thread that uses the `timeit` module to time the algorithm. The reason for using threads is to allow the program to run in parallel making the program much faster in total to run, as instead of the runtime being all the times added, it is just the largest time.
