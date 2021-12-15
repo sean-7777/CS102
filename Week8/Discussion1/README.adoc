@@ -1,0 +1,15 @@
+= Linked List Implementation
+:figure-caption!:
+
+== Source
+[%hardbreaks]
+GitHub: link:https://github.com/sean-7777/CS102/tree/main/Week8/Discussion1[]
+Source ZIP: link:https://github.com/sean-7777/CS102/blob/main/Week8/Discussion1.zip[]
+
+.Program Demo
+image::https://lh3.googleusercontent.com/pw/AM-JKLXsI7WfmlQ9MKl3qVVAYU-6waM0GpUu4gtF5s91s3j9cbi7DZhLjwB6X3iE6ZpKEYy_Mo5y0ncLdTf1GnsVjZJaxgHi3YlMzCmBW8CYEXhDgZ-zUYFAC251VP2zndjMr8gcelRO30GNJZufqfzpJZea=w1267-h852-no[Demo Image,link=https://photos.app.goo.gl/drGojBHJEvNRmvgbA]
+
+== Program
+This program wasn't actually as hard as I thought it would be. The methods I had to implement were easily implemented by just with a loop, as the `LinkedList` class already had a `\\__iter__` method. 
+
+You will notice that I actually remade the `\\__iter__` because for some reason when I had the `LinkedListIterator` class and I used `enumerate`, `pylint` complained that `Self@LinkedList` was not compatible with the `Iterable[_T@enumerate]` type of the `enumerate` function argument.
